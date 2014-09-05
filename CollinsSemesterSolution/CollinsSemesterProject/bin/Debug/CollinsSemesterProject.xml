@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CollinsSemesterProject
+</name>
+</assembly>
+<members>
+<member name="T:CollinsSemesterProject.ProjectDataSet.tblBrandDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblRentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblSellDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblSizeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblYearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblBrandRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblRentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblSellRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblSizeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblYearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblBrandRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblRentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblSellRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblSizeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet.tblYearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.tblBrandTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.tblRentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.tblSellTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.tblSizeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.tblYearTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CollinsSemesterProject.ProjectDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CollinsSemesterProject.ProjectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CollinsSemesterProject.ProjectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.UpdateAll(CollinsSemesterProject.ProjectDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CollinsSemesterProject.ProjectDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:CollinsSemesterProject.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CollinsSemesterProject.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CollinsSemesterProject.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
